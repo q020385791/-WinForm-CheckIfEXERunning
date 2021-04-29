@@ -30,7 +30,6 @@ namespace _WinForm_CheckIfEXERunning
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -43,21 +42,11 @@ namespace _WinForm_CheckIfEXERunning
             this.label1.TabIndex = 0;
             this.label1.Text = "TryOpenExeFileAgain";
             // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(28, 123);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(50, 18);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "label2";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(621, 202);
-            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -69,7 +58,6 @@ namespace _WinForm_CheckIfEXERunning
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
     }
 }
 
